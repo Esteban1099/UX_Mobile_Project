@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Foreground ImageView -->
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.4"
+            android:scaleType="centerCrop"
+            android:src="@drawable/imagen1" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/inter_bold"
+            android:text="Recetario"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#00000000"
+            android:textSize="42sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/receta_name1"
+            android:text="Sancocho"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#1D71AD"
+            android:layout_marginTop="120dp"
+            android:textSize="24sp"
+            android:paddingTop="26dp"
+            android:paddingBottom="12dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp" />
+
+        <Button
+            android:id="@+id/receta_name2"
+            android:text="Arroz con pollo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#1D71AD"
+            android:layout_marginTop="200dp"
+            android:textSize="24sp"
+            android:paddingTop="26dp"
+            android:paddingBottom="12dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"/>
+
+        <Button
+            android:id="@+id/receta_name3"
+            android:text="Ajiaco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#1D71AD"
+            android:layout_marginTop="280dp"
+            android:textSize="24sp"
+            android:paddingTop="26dp"
+            android:paddingBottom="12dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"/>
+
+        <Button
+            android:id="@+id/receta_name4"
+            android:text="Bandeja paisa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#1D71AD"
+            android:layout_marginTop="360dp"
+            android:textSize="24sp"
+            android:paddingTop="26dp"
+            android:paddingBottom="12dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"/>
+
+        <Button
+            android:id="@+id/receta_name5"
+            android:text="Mondongo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#1D71AD"
+            android:layout_marginTop="440dp"
+            android:textSize="24sp"
+            android:paddingTop="26dp"
+            android:paddingBottom="12dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"/>
+
+        <Button
+            android:id="@+id/receta_name6"
+            android:text="Lentejas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#1D71AD"
+            android:layout_marginTop="520dp"
+            android:textSize="24sp"
+            android:paddingTop="26dp"
+            android:paddingBottom="12dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"/>
+
+        <Button
+            android:id="@+id/receta_name7"
+            android:text="Pizza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#1D71AD"
+            android:layout_marginTop="600dp"
+            android:textSize="24sp"
+            android:paddingTop="26dp"
+            android:paddingBottom="12dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"/>
+
+    </FrameLayout>
+
+</LinearLayout>
