@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoUX"
         tools:targetApi="31">
+	<activity
+            android:name=".CrearAlarmaActivity"
+            android:exported="false"
+            android:parentActivityName=".AlarmasActivity" />
+        <activity
+            android:name=".PasosActivity"
+            android:exported="false"
+            android:parentActivityName=".RecetasActivity" />
+        <activity
+            android:name=".AlarmasActivity"
+            android:exported="false"
+            android:parentActivityName=".MenuActivity" />
         <activity
             android:name=".RecetasActivity"
             android:exported="false"

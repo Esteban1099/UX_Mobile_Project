@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Foreground ImageView -->
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.4"
+            android:scaleType="centerCrop"
+            android:src="@drawable/imagen1" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/inter_bold"
+            android:text="Receta"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#00000000"
+            android:textSize="42sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/paso1"
+            android:text="Hervir agua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#1D71AD"
+            android:layout_marginTop="360dp"
+            android:textSize="24sp"
+            android:paddingTop="26dp"
+            android:paddingBottom="12dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:layout_marginRight="120dp"/>
+
+        <Button
+            android:id="@+id/paso2"
+            android:text="Pitar la carne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#1D71AD"
+            android:layout_marginTop="440dp"
+            android:textSize="24sp"
+            android:paddingTop="26dp"
+            android:paddingBottom="12dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:layout_marginRight="120dp"/>
+
+        <Button
+            android:id="@+id/paso3"
+            android:text="sudar la verdura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#1D71AD"
+            android:layout_marginTop="520dp"
+            android:textSize="24sp"
+            android:paddingTop="26dp"
+            android:paddingBottom="12dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:layout_marginRight="120dp"/>
+
+        <Button
+            android:id="@+id/paso4"
+            android:text="Freir la papa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#1D71AD"
+            android:layout_marginTop="600dp"
+            android:textSize="24sp"
+            android:paddingTop="26dp"
+            android:paddingBottom="12dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:layout_marginRight="120dp"/>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="230dp"
+            android:layout_height="200dp"
+            android:src="@drawable/microfono"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="120dp"/>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="62dp"
+            android:layout_height="66dp"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="360dp"
+            android:src="@drawable/reloj" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="62dp"
+            android:layout_height="66dp"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="440dp"
+            android:src="@drawable/reloj" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="62dp"
+            android:layout_height="66dp"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="520dp"
+            android:src="@drawable/reloj" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="62dp"
+            android:layout_height="66dp"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="600dp"
+            android:src="@drawable/reloj" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/inter_bold"
+            android:text="Recetas"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#00000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+</LinearLayout>
